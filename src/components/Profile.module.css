@@ -1,0 +1,23 @@
+.content {
+    grid-area: content;
+    background-color: whitesmoke;
+    color:black;
+}
+
+.image {
+    display: grid;
+    width: 100%;
+    grid-template-columns:120px minmax(10px, auto);
+    grid-template-areas:"image .";
+}
+
+.avatar {
+    margin-top: 10px;
+    height: 120px;
+    grid-area: image;
+    background:url("image.jpg") center;
+    background-size: cover;
+}
+.item{
+    color: red;
+}

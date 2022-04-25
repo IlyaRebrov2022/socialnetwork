@@ -2,88 +2,9 @@
     width: 100%;
     display: grid;
     grid-template-rows: 100px 1000px;
-    grid-template-columns:minmax(10px, auto) minmax(80px, 200px) minmax(400px, 1400px) minmax(10px, auto);
+    grid-template-columns:minmax(10px, auto) minmax(150px, 200px) minmax(800px, 1400px) minmax(10px, auto);
     grid-gap: 10px;
     grid-template-areas:". header header ."
                         ". NavBar content .";
 }
 
-.header {
-    grid-area: header;
-    background-color: #5CDB95;
-    color: #05386B;
-    margin-top: 15px;
-
-}
-
-.header img {
-    margin: 20px;
-    width: 60px;
-}
-
-.nav {
-    grid-area: NavBar;
-    background-color: #5CDB95;
-    color: #05386B;
-    padding: 20px;
-    text-align: left;
-    font-size: 20px;
-
-}
-
-.content {
-    grid-area: content;
-    background-color: whitesmoke;
-    color:black;
-}
-
-.image {
-    display: grid;
-    width: 100%;
-    grid-template-columns:120px minmax(10px, auto);
-    grid-template-areas:"image .";
-}
-
-.avatar {
-    margin-top: 10px;
-    height: 120px;
-    grid-area: image;
-    background:url("image.jpg") center;
-    background-size: cover;
-}
-
-
-@media (max-width: 550px) {
-    .app-wrapper {
-        width: 100%;
-        display: grid;
-        grid-template-rows: 60px 60px 700px;
-        grid-template-columns:minmax(10px, auto) minmax(80px, 200px) minmax(400px, 1400px) minmax(10px, auto);
-        grid-gap: 5px;
-        grid-template-areas:". header header ."
-                            ". NavBar NavBar ."
-                            ". content content .";
-    }
-
-    .header {
-        grid-area: header;
-        background-color: #222;
-        color: white;
-    }
-
-    .header img {
-        width: 50px;
-    }
-
-    .nav {
-        grid-area: NavBar;
-        background-color: #05386B;
-        color: white;
-    }
-
-    .content {
-        grid-area: content;
-        background-color: #5CDB95;
-        color: white;
-    }
-}
