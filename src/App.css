@@ -2,9 +2,14 @@
     width: 100%;
     display: grid;
     grid-template-rows: 100px 1000px;
-    grid-template-columns:minmax(10px, auto) minmax(150px, 200px) minmax(800px, 1400px) minmax(10px, auto);
+    grid-template-columns:minmax(10px, auto) minmax(110px, 200px) minmax(600px, 1400px) minmax(10px, auto);
     grid-gap: 10px;
     grid-template-areas:". header header ."
                         ". NavBar content .";
 }
 
+.app-wrapper-content {
+    grid-area: content;
+    background-color: whitesmoke;
+    color: black;
+}

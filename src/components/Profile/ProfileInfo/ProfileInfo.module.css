@@ -1,0 +1,16 @@
+.image {
+    display: grid;
+    width: 100%;
+    grid-template-columns:100px;
+    grid-template-areas:"image";
+}
+
+.avatar {
+    margin-bottom: 10px;
+    height: 100px;
+    grid-area: image;
+    background: url("image.jpg") center;
+    background-size: cover;
+    position: relative;
+}
+

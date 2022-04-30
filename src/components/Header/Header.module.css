@@ -1,0 +1,24 @@
+.header {
+    grid-area: header;
+    background-color: #5CDB95;
+    margin-top: 15px;
+
+}
+
+.header img {
+    position: relative;
+    top: -40px;
+    margin: 10px;
+    width: 65px;
+    height: 65px;
+}
+
+.item {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    color: white;
+    font-family: Cambria;
+    font-size: 35px;
+}
+

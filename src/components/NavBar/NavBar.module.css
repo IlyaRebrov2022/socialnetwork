@@ -1,0 +1,27 @@
+.nav {
+    grid-area: NavBar;
+    background-color: #5CDB95;
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+
+}
+
+.item {
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    color: gold;
+    text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+    .nav {
+        padding: 20px;
+        text-align: left;
+        font-size: 18px;
+
+    }
+}
